@@ -1,0 +1,11 @@
+{
+  "name": "sophia-central-ajuda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Central estática de ajuda ao candidato. Publicação direta no GitHub Pages.",
+  "scripts": {
+    "dev": "node preview.mjs",
+    "check": "node --check app.js && node --check config.js && node --check preview.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
